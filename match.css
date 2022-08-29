@@ -115,7 +115,9 @@ body{
     border-radius: 5px;
 }
 
-#match{
+#active{
+    background-color:#DD0000;
+    color: #FFFFFF;
     padding: 17px 39px;
 }
 
@@ -123,52 +125,35 @@ body{
     padding: 17px 80px;
 }
 
-#active{
-    background-color:#DD0000;
-    color: #FFFFFF;
+#blog{
     padding: 17px 104px;
 }
 
-/* Blog Styles */
+/* Match Styles */
 
-.blogs{
+.matches{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
 }
 
-.blog{
+.match{
     border: 1px solid #E8E8E8;
     border-radius: 10px;
+    padding: 53px 30px;
 }
 
-.blog img{
-    width: 100%;
-}
-
-.blog:hover{
+.match:hover{
     transform: skew(1deg, -1deg);
 }
 
-.blog-info{
-    margin: 20px 10px 10px 20px;
-}
-
-.transfer-button{
-    width: 100px;
-    height: 32px;
-    background-color: transparent;
-    border-radius: 5px;
-    font-size: 16px;
-}
-.blog-icons{
+.match-flag{
     display: flex;
-    gap: 10px;
+    justify-content: space-evenly;
 }
 
-.blog-icons img{
-    width: 24px;
-    height: 24px;
+.match-info{
+    text-align: center;
 }
 
 /* Footer Styles */
