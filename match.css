@@ -19,7 +19,7 @@ body{
 /* Banner Styles */
 
 .banner{
-    background-color: #161616;
+    background-image: linear-gradient(midnightblue, purple);
     width: 1321px;
     height: 645px;
     border-radius: 30px;
@@ -58,6 +58,7 @@ body{
     border-radius: 5px;
     padding: 16px 25px;
     margin-top: 30px;
+    box-shadow: 10px 5px 40px midnightblue;
 }
 
 .banner-image{
@@ -84,7 +85,7 @@ body{
 /* Side Menu Styles */
 
 .side-menu{
-    background-color: #161616;
+    background-image: linear-gradient(midnightblue, purple);
     width: 312px;
     height: 312px;
     border-radius: 10px;
@@ -199,6 +200,10 @@ body{
     font-size: 25px;
 }
 
+.fa-brands{
+    color: blue;
+}
+
 /* Responsive Small Devices Style */
 
 @media screen and (max-width: 688px) {
@@ -262,7 +267,7 @@ body{
     /* Side Menu Styles */
 
     .side-menu{
-        background-color: transparent;
+        background-image: none;
     }
 
     .side-button{
@@ -371,7 +376,7 @@ body{
     /* Side Menu Styles */
 
     .side-menu{
-        background-color: transparent;
+        background-image: none;
         display: flex;
         justify-content: center;
         align-items: center;
