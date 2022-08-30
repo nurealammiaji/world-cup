@@ -273,10 +273,6 @@ body{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 24px;
-        /* display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center; */
         margin-top: 24px;
     }
 
