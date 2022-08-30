@@ -303,3 +303,84 @@ body{
     }
 
 }
+
+/* Responsive for Medium Devices */
+
+@media screen and (min-width: 689px) and (max-width: 992px) {
+
+    /* Banner Styles */
+
+    .banner{
+        background-color: #161616;
+        width: 100%;
+        border-radius: 30px;
+    }
+
+    .banner-block{
+        display: flex;
+        color: #FFFFFF;
+        padding: 0px 106px 0px 80px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .banner-info{
+        width: 50%;
+    }
+
+    .banner-info h1{
+        font-size: 40px;
+    }
+
+    .banner-image{
+        width: 50%;
+    }
+
+    .banner-image img{
+        width: 100%;
+    }
+
+    /* Main Styles */
+
+    .main-block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Side Menu Styles */
+
+    .side-menu{
+        background-color: transparent;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .side-buttons{
+        display: inline-flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .side-button{
+        border: 1px solid #E8E8E8;
+    }
+
+    .side-menu{
+        background-color: transparent;
+        width: 100%;
+    }
+
+    /* Blog Styles */
+
+    .blogs{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        margin-top: 24px;
+    }
+
+}
