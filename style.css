@@ -23,10 +23,11 @@ body{
     width: 1321px;
     height: 645px;
     border-radius: 30px;
+    transition: transform 250ms;
 }
 
 .banner:hover{
-    transform: skew(1deg, -1deg);
+    transform: translateY(-10px);
 
 }
 
@@ -90,10 +91,11 @@ body{
     height: 312px;
     border-radius: 10px;
     padding: 30px;
+    transition: transform 250ms;
 }
 
 .side-menu:hover{
-    transform: skew(1deg, -1deg);
+    transform: translateY(-10px);
 }
 
 .side-buttons{
@@ -141,6 +143,7 @@ body{
 .blog{
     border: 1px solid #E8E8E8;
     border-radius: 10px;
+    transition: transform 250ms;
 }
 
 .blog img{
@@ -148,7 +151,7 @@ body{
 }
 
 .blog:hover{
-    transform: skew(1deg, -1deg);
+    transform: translateY(-10px);
 }
 
 .blog-info{
@@ -186,10 +189,11 @@ body{
     padding: 12px 29px;
     box-shadow: 10px 5px 40px gray;
     margin-bottom: 50px;
+    transition: transform 250ms;
 }
 
 .viewall-button:hover{
-    transform: skew(2deg, -2deg);
+    transform: translateY(-10px);
 }
 
 /* Footer Styles */
@@ -224,10 +228,11 @@ body{
 .footer-menu a{
     text-decoration: none;
     color: #B9B9B9;
+    transition: transform 250ms;
 }
 
 .footer-menu a:hover{
-    transform: skew(5deg, -5deg);
+    transform: translateY(-10px);
 }
 
 .footer-icons{
@@ -238,9 +243,12 @@ body{
     gap: 20px;
     font-size: 25px;
 }
+.footer-icons a{
+    transition: transform 250ms;
+}
 
 .footer-icons a:hover{
-    transform: skew(10deg, -10deg);
+    transform: translateY(-10px);
 }
 
 .fa-brands{
