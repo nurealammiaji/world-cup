@@ -16,6 +16,16 @@ body{
     margin: 50px 140px 130px 140px;
 }
 
+/* Animation Styles */
+
+@keyframes color-change {
+    0% { color: white }
+    25% { color: yellow; }
+    50% { color: orchid; }
+    75% { color: red; }
+    100% { color: white; }
+  }
+
 /* Banner Styles */
 
 .banner{
@@ -45,6 +55,7 @@ body{
 .banner-info h1{
     font-weight: 700;
     font-size: 70px;
+    animation: color-change 4s infinite;
 }
 
 .banner-button{
@@ -201,6 +212,7 @@ body{
     text-align: center;
     font-size: 40px;
     font-weight: 600;
+    animation: color-change 4s infinite;
 }
 
 .footer-menu{
@@ -218,6 +230,7 @@ body{
 
 .footer-menu a:hover{
     transform: translateY(-10px);
+    animation: color-change 2s infinite;
 }
 
 .footer-icons{
